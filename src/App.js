@@ -1,6 +1,7 @@
 import logo from './images/logo.png';
 import icons from './images/biticons.png';
-import MailLogo from './MailLogo';
+import {CiMail} from 'react-icons/ci';
+
 import './App.css';
 
 function App() {
@@ -10,10 +11,9 @@ function App() {
           <img src={icons} className="icons" alt="icons" />
           <h1>Enterprise Adoption Partnerr</h1>
         </div>
-        <MailLogo />
+        <img src={logo} className="logo" alt="logo" />
+        <div className='email'><CiMail /><a href="mailto: shawn@betweenbits.io">shawn@betweenbits.io</a></div>  
         <footer>
-          <img src={logo} className="logo" alt="logo" />
-
           <p>COMING SOON</p>
           <p>2023</p>
         </footer>

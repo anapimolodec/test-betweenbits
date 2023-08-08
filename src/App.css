@@ -38,3 +38,15 @@ footer {
 footer p {
   font-weight: bold;
 }
+
+.email {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
+.email a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
