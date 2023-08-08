@@ -9,7 +9,7 @@ function App() {
     <div className="App">
         <div className="header">
           <img src={icons} className="icons" alt="icons" />
-          <h1>Enterprise Adoption Partnerr</h1>
+          <h1>Enterprise Adoption Partner</h1>
         </div>
         <img src={logo} className="logo" alt="logo" />
         <div className='email'><CiMail /><a href="mailto: shawn@betweenbits.io">shawn@betweenbits.io</a></div>  
