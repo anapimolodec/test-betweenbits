@@ -15,7 +15,9 @@ h1 {
   font-style: italic;
   font-size: 3em;
   text-decoration: underline;
+  text-underline-position: under;
 }
+
 .logo {
   height: 3em;
 }
